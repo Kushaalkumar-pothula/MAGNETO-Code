@@ -25,7 +25,7 @@ while t < 1000.0 * year:
 arr_f = np.array(lst_f)
 arr_a = np.array(lst_a)
 
-np.savetxt("Flare Interval Result.txt",arr_f)
-np.savetxt("Magnetar Age.txt",arr_a)
+np.savetxt("FlareRes.txt",arr_f)
+np.savetxt("AgeRes.txt",arr_a)
 
 #----------------------------------------------------------
