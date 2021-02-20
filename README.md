@@ -15,10 +15,11 @@ cd MAGNETO-Code
 Now you should have the MAGNETO code successfully installed on your computer. Now you can proceed to running the code using the commands described in the section below.
 
 ## Usage
-To run the code, you must have NumPy and Matplotlib already installed.
+To run the code, you must have NumPy and Matplotlib already installed. 
+If you have fulfilled the requirements, you can proceed by following the given instructions.
 
 #### UNIX Operating Systems
-You can run and analyse the simulation in a single step by running ```run.sh```. This can be done by running the following commands in a terminal:
+On UNIX Operating Systems, you can run and analyse the simulation in a single step by running ```run.sh```. This can be done by running the following commands in a terminal:
 ```bash
 chmod +x run.sh
 ./run.sh
