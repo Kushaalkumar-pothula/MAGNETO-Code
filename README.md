@@ -12,7 +12,7 @@ cd MAGNETO-Code
 git clone https://github.com/Kushaalkumar-pothula/MAGNETO-Code.git
 cd MAGNETO-Code
 ```
-Now you should have the MAGNETO code successfully installed on your computer.
+Now you should have the MAGNETO code successfully installed on your computer. Now you can proceed to running the code using the commands described in the section below.
 
 ## Usage
 To run the code, you must have NumPy and Matplotlib already installed.
