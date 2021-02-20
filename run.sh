@@ -1,5 +1,8 @@
 #!/bin/sh
-echo "Starting MAGNETO"
+
+echo "Starting MAGNETO at:"
+current_date_time="`date "+%Y-%m-%d %H:%M"`";
+echo $current_date_time;
 
 echo "Initialising simulation"
 python FlareTimes.py
