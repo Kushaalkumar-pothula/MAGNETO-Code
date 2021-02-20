@@ -43,4 +43,4 @@ The results are availabe as ```.txt``` files, which are named as ```[date-time]A
 You will find a file ```[date-time]Flare_Times_Result.png``` in the ```MAGNETO-Code``` directory. This plot, an output of the analysis script, displays the relation between flaring activity of the magnetar over its lifetime.
 
 ## Author
-[Kushaal Kumar Pothula](www.sites.google.com/view/kushaal-kumar-pothula)
+Kushaal Kumar Pothula (www.sites.google.com/view/kushaal-kumar-pothula)
