@@ -1,9 +1,12 @@
 #Import required libraries
 import numpy as np
 import matplotlib.pyplot as plt
+from datetime import datetime
 
-age  = np.loadtxt("AgeRes.txt")
-flare_intervals = np.loadtxt("FlareRes.txt")
+time_now = datetime.now().strftime("%Y-%m-%d-%H-%M")
+
+age  = np.loadtxt(time_now+"AgeRes.txt")
+flare_intervals = np.loadtxt(time_now+"FlareRes.txt")
 
 #--------------------Plot simulated data-------------------
 
@@ -19,6 +22,6 @@ plt.xlabel("Magnetar Age")
 plt.ylabel("Flare Interval")
 plt.grid(True)
 
-plt.savefig("Flare_Times_Result.png")
+plt.savefig(time_now+"Flare_Times_Result.png")
 
 #----------------------------------------------------------
