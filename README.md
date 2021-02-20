@@ -1,4 +1,4 @@
-# The MAGNETO Code: Magnetar Activity GeNEraTOr
+# The Magnetar Activity GeNEraTOr (MAGNETO) Code
 An astrophysics based Python code to simulate flaring activity of a magnetar using the Monte Carlo statistical technique. 
 The MAGNETO code generates a sequence of flares from a single magnetar over its lifetime. Remember that the Monte Carlo simulation has been performed for a linear relation ONLY. This will be updated based on the astrophysics and physics of magnetars soon.
 
@@ -12,7 +12,7 @@ cd MAGNETO-Code
 git clone https://github.com/Kushaalkumar-pothula/MAGNETO-Code.git
 cd MAGNETO-Code
 ```
-Now you should have the MAGNETO code successfully installed on your computer
+Now you should have the MAGNETO code successfully installed on your computer.
 
 ## Usage
 To run the code, you must have NumPy and Matplotlib already installed.
@@ -24,7 +24,7 @@ chmod +x run.sh
 ./run.sh
 ```
 
-#### Windows and Others
+#### Windows and Others OS
 Run the following command:
 ```bash
 python FlareTimes.py
