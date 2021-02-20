@@ -39,6 +39,6 @@ Now, you can analyse the result obtained by running the Monte Carlo simulation b
 This command will result in a plot showing the simulated relation of the age of a magnetar and its flare intervals.
 
 ## Results
-The results are availabe as ```AgeRes.txt``` and ```FlareRes.txt```. These files denote the results of magnetar age and flare intervals respectively. *Do not* rename these files!
+The results are availabe as ```.txt``` files, which are named as ```[date-time]AgeRes.txt``` and ```[date-time]FlareRes.txt``` where ```date-time``` is replaced by your local time from your computer. These files denote the results of magnetar age and flare intervals respectively. *Do not* rename these files!
 
-You will also find a file ```Flare_Times_Result.png``` in the ```MAGNETO-Code``` directory. This plot displays the relation between flaring activity of the magnetar over its lifetime. Remember to copy this plot to another directory for later use, or else it will be replaced when you run the code again. 
+You will also find a file ```[date-time]Flare_Times_Result.png``` in the ```MAGNETO-Code``` directory. This plot displays the relation between flaring activity of the magnetar over its lifetime.
