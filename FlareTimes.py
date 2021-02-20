@@ -1,5 +1,6 @@
 #Import required libraries
 import numpy as np
+from datetime import datetime
 
 #--------------------Monte Carlo Simmulation---------------
 
@@ -25,7 +26,9 @@ while t < 1000.0 * year:
 arr_f = np.array(lst_f)
 arr_a = np.array(lst_a)
 
-np.savetxt("FlareRes.txt",arr_f)
-np.savetxt("AgeRes.txt",arr_a)
+time_now = datetime.now().strftime("%Y-%m-%d-%H-%M")
+
+np.savetxt(time_now+"FlareRes.txt",arr_f)
+np.savetxt(time_now"AgeRes.txt",arr_a)
 
 #----------------------------------------------------------
