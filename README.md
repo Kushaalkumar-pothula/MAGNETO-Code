@@ -7,10 +7,10 @@ The MAGNETO code generates a sequence of flares from a single magnetar over its 
 
 To install the MAGNETO code, run the following commands in the terminal:
 ```bash
-mkdir MAGNETO-Code
-cd MAGNETO-Code
-git clone https://github.com/Kushaalkumar-pothula/MAGNETO-Code.git
-cd MAGNETO-Code
+> mkdir MAGNETO-Code
+> cd MAGNETO-Code
+> git clone https://github.com/Kushaalkumar-pothula/MAGNETO-Code.git
+> cd MAGNETO-Code
 ```
 Now you should have the MAGNETO code successfully installed on your computer. Now you can proceed to running the code using the commands described in the section below.
 
@@ -21,20 +21,20 @@ If you have fulfilled the requirements, you can proceed by following the given i
 #### UNIX Operating Systems
 On UNIX Operating Systems, you can run and analyse the simulation in a single step by running ```run.sh```. This can be done by running the following commands in a terminal:
 ```bash
-chmod +x run.sh
-./run.sh
+> chmod +x run.sh
+> ./run.sh
 ```
 
 #### Windows and Others OS
 Run the following command:
 ```bash
-python FlareTimes.py
+> python FlareTimes.py
 ```
 This command  will result in a simulation of flare intervals of flaring activity of a magnetar.
 
 Now, you can analyse the result obtained by running the Monte Carlo simulation by running the command:
 ```bash
-python FlareTimePlot.py
+> python FlareTimePlot.py
 ```
 This command will result in a plot showing the simulated relation of the age of a magnetar and its flare intervals.
 
