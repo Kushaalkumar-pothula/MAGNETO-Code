@@ -29,6 +29,6 @@ arr_a = np.array(lst_a)
 time_now = datetime.now().strftime("%Y-%m-%d-%H-%M")
 
 np.savetxt(time_now+"FlareRes.txt",arr_f)
-np.savetxt(time_now"AgeRes.txt",arr_a)
+np.savetxt(time_now+"AgeRes.txt",arr_a)
 
 #----------------------------------------------------------
