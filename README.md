@@ -5,7 +5,7 @@ The MAGNETO code generates a sequence of flares from a single magnetar over its 
 
 ## Installation
 
-To install the MAGNETO code, run the following commands in the terminal:
+To install the MAGNETO code, run the following commands in a terminal:
 ```bash
 > mkdir MAGNETO-Code
 > cd MAGNETO-Code
