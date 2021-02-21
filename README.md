@@ -24,7 +24,7 @@ In a ```bash``` shell, you can run and analyse the simulation in a single step b
 > ./run.sh
 ```
 
-If you want to run individual scripts,you can follow the commands below.
+If you want to run individual scripts, you can follow the instructions below:
 Run the following command:
 ```bash
 > python FlareTimes.py
