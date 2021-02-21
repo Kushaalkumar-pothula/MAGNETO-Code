@@ -26,6 +26,7 @@ On UNIX Operating Systems, you can run and analyse the simulation in a single st
 ```
 
 #### Windows and Others OS
+On Windows and other OS, you might need to run the python scripts individually. You can also follow these steps if you want to run any single script, as opposed to running 2 scripts individually using ```run.sh```.
 Run the following command:
 ```bash
 > python FlareTimes.py
