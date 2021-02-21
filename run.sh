@@ -11,3 +11,5 @@ echo "Simulation complete"
 echo "Initializing analysis"
 python FlareTimePlot.py
 echo "Analysis complete"
+
+echo "MAGNETO simulation completed successfully"
