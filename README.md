@@ -31,7 +31,7 @@ Run the following command:
 ```
 This command  will run a simulation of flare intervals of flaring activity of a magnetar.
 
-Now, you can analyse the result obtained by running the Monte Carlo simulation by running the command:
+Now, you can analyse the Monte Carlo simulation result by running the command:
 ```bash
 > python FlareTimePlot.py
 ```
