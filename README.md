@@ -16,22 +16,20 @@ Now you should have the MAGNETO code successfully installed on your computer. No
 
 ## Usage
 To run the code, you must have NumPy and Matplotlib already installed. 
-If you have fulfilled the requirements, you can proceed by following the given instructions.
+If you have fulfilled the requirements, you can proceed to run the code.
 
-#### UNIX Operating Systems
-On UNIX Operating Systems, you can run and analyse the simulation in a single step by running ```run.sh```. This can be done by running the following commands in a terminal:
+In a ```bash``` shell, you can run and analyse the simulation in a single step by running ```run.sh```. This can be done by running the following commands in a terminal:
 ```bash
 > chmod +x run.sh
 > ./run.sh
 ```
 
-#### Windows and Others OS
-On Windows and other OS, you might need to run the python scripts individually. You can also follow these steps if you want to run any single script, as opposed to running 2 scripts individually using ```run.sh```.
+If you want to run individual scripts,you can follow the commands below.
 Run the following command:
 ```bash
 > python FlareTimes.py
 ```
-This command  will result in a simulation of flare intervals of flaring activity of a magnetar.
+This command  will run a simulation of flare intervals of flaring activity of a magnetar.
 
 Now, you can analyse the result obtained by running the Monte Carlo simulation by running the command:
 ```bash
