@@ -41,5 +41,8 @@ This command will result in a plot showing the simulated relation of the age of 
 The results are availabe as ```.txt``` files, which are named as ```[date-time]AgeRes.txt``` and ```[date-time]FlareRes.txt``` where ```date-time``` is replaced by your local time from your computer. These files denote the results of magnetar age and flare intervals respectively. Because the analysis script (```FlareTimePlot.py```) reads the output of the simulation script (```FlareTimes.py```), *do not* rename these outputs and give at least a 1 minute gap between two consequtive runs of MAGNETO.
 You will find a file ```[date-time]Flare_Times_Result.png``` in the ```MAGNETO-Code``` directory. This plot, an output of the analysis script, displays the relation between flaring activity of the magnetar over its lifetime.
 
+## User Guide
+It is highly recommended to go through the user guide to learn to use MAGNETO: https://github.com/Kushaalkumar-pothula/MAGNETO-Code/wiki
+
 ## Author
 Kushaal Kumar Pothula (www.sites.google.com/view/kushaal-kumar-pothula)
