@@ -6,6 +6,7 @@ echo "| .  . |/ /_\ \ |  \/|  \| || |__   | | | | | |"
 echo "| |\/| ||  _  | | __ | . ` ||  __|  | | | | | |"
 echo "| |  | || | | | |_\ \| |\  || |___  | | \ \_/ /"
 echo "\_|  |_/\_| |_/\____/\_| \_/\____/  \_/  \___/ "
+echo "                                               "
                                                
 current_date_time="`date "+%Y-%m-%d %H:%M"`";
 echo "Starting MAGNETO at $current_date_time"
