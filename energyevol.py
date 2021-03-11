@@ -3,12 +3,12 @@ import matplotlib.pyplot as plt
 from datetime import datetime
 
 time_now = datetime.now().strftime("%Y-%m-%d-%H-%M")
-flare_interval = np.loadtxt(time_now+"FlareRes.txt")
-age = np.loadtxt(time_now+"AgeRes.txt")
+lst_f = np.loadtxt(time_now+"FlareRes.txt")
+lst_a = np.loadtxt(time_now+"AgeRes.txt")
 
 lst_edot = []  # Empty list to hold E-dot values
 
-for a in age:
+for a in lst_a:
     # E-dot is proportional to t^-alpha where alpha = 1.3
     edot = (1e46 * (a**(-1.3)))  # 1e46 because it is roughly E_B of SGR 1935
     lst_edot.append(edot)
@@ -36,7 +36,7 @@ def energy_calc(edot, t_int):
 #--------------------------------------------------------------------------
 
 
-e = list(map(energy_calc, lst_edot, flare_interval))
+e = list(map(energy_calc, lst_edot, lst_f))
 
 arr_e = np.array(e)
 
