@@ -1,5 +1,5 @@
 import numpy as np
-import matplotlib.pyplot as proportionallt
+import matplotlib.pyplot as plt
 from datetime import datetime
 
 time_now = datetime.now().strftime("%Y-%m-%d-%H-%M")
