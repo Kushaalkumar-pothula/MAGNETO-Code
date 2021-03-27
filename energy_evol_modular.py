@@ -1,5 +1,6 @@
 
 import argparse
+from datetime import datetime
 
 from interval_module import interval_gen
 import matplotlib.pyplot as plt
@@ -63,4 +64,5 @@ plt.colorbar()
 plt.xlabel("Magnetar Age [seconds]")
 plt.ylabel("Flare Energy [ergs]")
 plt.grid(True)
-plt.savefig(f'{dirname}/enrgy_evolution.png')
+time_now = datetime.now().strftime('%d-%m-%Y-%H-%M')
+plt.savefig(f'{time_now}_energy_evolution.png')
