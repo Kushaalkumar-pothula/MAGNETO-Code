@@ -19,7 +19,7 @@ There are two ways to run MAGNETO: By following the default method or the custom
 1. Open MAGNETO-Code directory in your terminal.
 2. Run the following command:
 ```bash
-> run.sh
+> bash run.sh
 ```
 This will run the simulation with some default values of the magnetar's magntic field energy and power-law index.
 
