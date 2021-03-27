@@ -17,4 +17,4 @@ plt.ylabel("Flare Interval [seconds]")
 plt.grid(True)
 
 time_now = datetime.now().strftime('%d-%m-%Y-%H-%M')
-plt.savefig(f'{time_now}/flare_interval_evolution.png')
+plt.savefig(f'{time_now}_flare_interval_evolution.png')
