@@ -3,8 +3,6 @@ import os
 from datetime import datetime
 
 from interval_module import interval_gen
-
-import numpy as np
 import matplotlib.pyplot as plt
 
 lst_a = [] 
