@@ -15,7 +15,8 @@ Now you should have the MAGNETO code successfully installed on your computer. No
 ## Usage
 *Dependencies*: Python 3, NumPy and Matplotlib. 
 There are two ways to run MAGNETO: By following the default method or the custom method. The custom method gives more freedom over physical parameters.
-### Default
+
+### Default Configuration
 1. Open MAGNETO-Code directory in your terminal.
 2. Run the following command:
 ```bash
@@ -23,8 +24,21 @@ There are two ways to run MAGNETO: By following the default method or the custom
 ```
 This will run the simulation with some default values of the magnetar's magntic field energy and power-law index.
 
-## User Guide
-It is highly recommended to go through the user guide to learn to use MAGNETO: https://github.com/Kushaalkumar-pothula/MAGNETO-Code/wiki
+### Custom Configuration
+In this method of running MAGNETO, you will have control over the physical aspects of the magnetar. You can specify the values of the respective parameters using options while running scripts. To get help with them, you can run:
+```bash
+> python energy_evol_modular.py -h
+  usage: energy_evol_modular.py [-h] E [E ...] a [a ...]
 
+Simulate flaring activity of a magnetar using the Monte Carlo method.
+
+positional arguments:
+  E           Total magetic energy of the magnetar
+  a           Power of time in energy-time relation, known as alpha
+
+optional arguments:
+  -h, --help  show this help message and exit
+```
+  
 ## Author
 Kushaal Kumar Pothula (www.sites.google.com/view/kushaal-kumar-pothula)
