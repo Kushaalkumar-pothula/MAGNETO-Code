@@ -25,7 +25,7 @@ There are two ways to run MAGNETO: By following the default method or the custom
 This will run the simulation with some default values of the magnetar's magntic field energy and power-law index.
 
 ### Custom Configuration
-In this method of running MAGNETO, you will have control over the physical aspects of the magnetar. You can specify the values of the respective parameters using options while running scripts. To get help with them, you can run:
+In this method of running MAGNETO, you will have control over the physical aspects of the magnetar. You can specify the values of the respective parameters using options while running scripts. To get help with them, you can use the ```-h``` flag while running the script:
 ```bash
 > python energy_evol_modular.py -h
   usage: energy_evol_modular.py [-h] E [E ...] a [a ...]
