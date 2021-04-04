@@ -1,6 +1,8 @@
 # The Magnetar Activity GeNEraTOr (MAGNETO) Code
 
 [![DOI](https://zenodo.org/badge/340451011.svg)](https://zenodo.org/badge/latestdoi/340451011)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 An astrophysics based Python code to simulate flaring activity of a magnetar using the Monte Carlo statistical technique. 
 The MAGNETO code generates a sequence of flares from a single magnetar over its lifetime to determine how the time between two flares and flare energies evolve over the magnetar's age.
