@@ -44,6 +44,9 @@ positional arguments:
 optional arguments:
   -h, --help  show this help message and exit
 ```
-  
+Similarly, you can run the interval evolution simulation:
+```bash
+> python interval_evol_modular.py
+```
 ## Author
 Kushaal Kumar Pothula (www.sites.google.com/view/kushaal-kumar-pothula)
