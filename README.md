@@ -50,4 +50,4 @@ Similarly, you can run the interval evolution simulation:
 > python interval_evol_modular.py
 ```
 ## Author
-Kushaal Kumar Pothula (www.sites.google.com/view/kushaal-kumar-pothula)
+Kushaal Kumar Pothula (https://kushaalkumarpothula.wordpress.com/)
