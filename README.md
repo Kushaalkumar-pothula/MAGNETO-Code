@@ -49,5 +49,6 @@ Similarly, you can run the interval evolution simulation:
 ```bash
 > python interval_evol_modular.py
 ```
+
 ## Author
-Kushaal Kumar Pothula (https://kushaalkumarpothula.wordpress.com/)
+Kushaal Kumar Pothula (https://kushaalkumarpothula.wordpress.com/). Initially written in 2020, when I was 15.
